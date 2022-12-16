@@ -1,0 +1,27 @@
+ul {
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: lightgrey;
+  background-color: darkslateblue;
+  border-radius: 50%;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 2px 5px black;
+}
+
+ul li :hover {
+  background-color: blueviolet;
+}
+ul li .active {
+  background-color: blueviolet;
+}

@@ -1,0 +1,43 @@
+.description {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+  background-color: steelblue;
+  padding: 2rem;
+  border-radius: 8px;
+  color: floralwhite;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.h1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: darkred;
+  background-color: steelblue;
+}
+.rating {
+  color: yellow;
+  margin-top: 0.5rem;
+}
+.date {
+  color: beige;
+}
+.fecha {
+  color: darkgray;
+  margin-top: 1rem;
+}
+.plataformas {
+  margin-top: 1.5rem;
+}
+.generos {
+  color: lightgrey;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: darkslateblue;
+  border-radius: 3px;
+  margin-top: 0.5rem;
+  border: solid grey;
+}
