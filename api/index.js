@@ -20,7 +20,8 @@
 const server = require("./src/app.js");
 const { conn, Genre } = require("./src/db.js");
 const axios = require("axios");
-const { API_KEY } = process.env;
+require("dotenv").config();
+const { API_KEY, PORT } = process.env;
 
 const loadGenres = () => {
   axios
@@ -41,7 +42,7 @@ const loadGenres = () => {
 conn.sync({ force: true, alter: false }).then(async () => {
   await loadGenres();
   // console.log(genreList);
-  server.listen(3001, () => {
-    console.log("%s listening at 3001"); // eslint-disable-line no-console
+  server.listen(PORT, () => {
+    console.log("%s listening at ", PORT); // eslint-disable-line no-console
   });
 });
